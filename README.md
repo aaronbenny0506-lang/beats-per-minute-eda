@@ -1,8 +1,8 @@
-# Kaggle Playground S5E9 – BPM Prediction (Task 1)
+# Kaggle Playground S5E9 : BPM Prediction (Task 1)
 
 Data prep, cleaning, EDA and feature engineering for the Beats-per-Minute regression task (metric: RMSE).
 
-## Repo contents (~0.4 MB total)
+## Repo contents
 | File | Purpose |
 |---|---|
 | `bpm_task1_eda_fe.ipynb` | Full pipeline with outputs |
@@ -20,7 +20,7 @@ Full cleaned files are **not** committed (they exceed GitHub limits). Run the no
 5. **EDA:** distributions, decile plots, correlations, permutation importance.
 
 ## Feature-engineering notes
-16 new features: duration (min/log/quantile band), loudness band, interactions (Rhythm×Energy, Loudness×Energy, Mood×Energy, Live×Vocal), Vocal+Instrumental, Acoustic−Energy, Energy/Acoustic, Loudness per minute, and mean/std/max/min across the seven 0–1 audio scores.
+16 new features: duration (min/log/quantile band), loudness band, interactions (Rhythm×Energy, Loudness×Energy, Mood×Energy, Live×Vocal), Vocal+Instrumental, Acoustic−Energy, Energy/Acoustic, Loudness per minute and mean/std/max/min across the seven 0–1 audio scores.
 
 ## Results (validation RMSE)
 | Model | RMSE |
