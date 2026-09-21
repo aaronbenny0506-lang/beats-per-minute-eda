@@ -7,7 +7,7 @@ Data prep, cleaning, EDA and feature engineering for the Beats-per-Minute regres
 |---|---|
 | `bpm_task1_eda_fe.ipynb` | Full pipeline with outputs |
 | `eda_visuals/` | 4 small PNGs (distributions, BPM-vs-feature deciles, correlation heatmap, permutation importance) |
-| `cleaned_train_sample.csv.gz` | 5,000-row sample of cleaned + engineered train data (25 features + BPM) |
+| `cleaned_train_sample.csv` | 5,000-row sample of cleaned + engineered train data (25 features + BPM) |
 | `.gitignore` | Keeps `train.csv`/`test.csv` and full exports out of git |
 
 Full cleaned files are **not** committed (they exceed GitHub limits). Run the notebook with `FULL_EXPORT = True` to regenerate them locally.
